@@ -10,7 +10,7 @@ for num in numbers:
     for i in range(2, num):
         if num % i == 0:
             is_prime = False
-        break
+            break
     if is_prime:
             primes.append(num)
     else:
