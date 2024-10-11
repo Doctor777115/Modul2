@@ -3,9 +3,10 @@ def get_matrix(n, m, value):
     for i in range(n):
         neo = []
         matrix.append(neo)
-        for f in range(m):
+        for j in range(m):
             neo.append(value)
-        return(matrix)
+    return(matrix)
+
 result1 = get_matrix(2, 2, 10)
 result2 = get_matrix(3, 5, 42)
 result3 = get_matrix(4, 2, 13)
